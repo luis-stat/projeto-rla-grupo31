@@ -15,3 +15,7 @@ for (i = 0; i < quantAlunos; i++) {
     nota = parseFloat(prompt("Informe a 2a nota do "+ (i + 1) +" aluno: "))
     notasAv2.push(nota)
 }
+
+for (j = 0; j < quantAlunos; j++) {
+    media[j] = ((notasAv1[j] + notasAv2[j]) / 2)
+}
